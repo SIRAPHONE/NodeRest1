@@ -3,7 +3,7 @@ const Sequelize = require("sequelize");
 const app = express();
 
 app.use(express.json());
-const dbUrl = 'postgres://webadmin:MAIgsf81141@node56535-siraphong.proen.app.ruk-com.cloud:11831/Books'
+const dbUrl = 'postgres://webadmin:AATdft67872@node56535-siraphong.proen.app.ruk-com.cloud:11831/Books'
 const sequelize = new Sequelize("database", "username", "password", {
   host: "localhost",
   dialect: "sqlite",
